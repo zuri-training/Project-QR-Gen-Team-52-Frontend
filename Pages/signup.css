@@ -5,8 +5,9 @@
     height: 30px;
     margin: 10px 0px;
 }
+
 .bnt1:hover {
-background: #E12D93 0%;
+    background: #E12D93 0%;
 }
 
 .bnt2 {
@@ -18,7 +19,7 @@ background: #E12D93 0%;
 
 .bnt2:hover {
     background: #E12D93 0%;
-    }
+}
 
 .bnt3 {
     border-radius: 5px;
@@ -33,7 +34,7 @@ background: #E12D93 0%;
 
 .bnt3:hover {
     background: #E12D93 0%;
-    }
+}
 
 .hrd {
     margin-top: 15px;
@@ -44,16 +45,9 @@ background: #E12D93 0%;
     height: 0.5px;
 }
 
-
-
-
-
-
-
 .sign {
     margin: 30px 0px;
 }
-
 
 .middle {
     width: 634px;
@@ -66,19 +60,16 @@ background: #E12D93 0%;
     margin-top: 150px;
 }
 
-
-
 .formtext {
     margin-right: 170px;
     font-size: 12px;
 }
 
-.formtext1{
+.formtext1 {
     margin-right: 197px;
-  
 }
 
-.pie{
+.pie {
     width: 300px;
     font-size: 12px;
     margin-left: 170px;
@@ -90,5 +81,4 @@ background: #E12D93 0%;
     border-radius: 5px;
     border: none;
     margin: 10px 0px;
-
 }
