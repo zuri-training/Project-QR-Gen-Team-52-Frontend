@@ -150,8 +150,8 @@ section.left .contact-form input::placeholder {
 }
 
 section .right {
-  /* width: 526px; */
-  width: 400px;
+  width: 526px; 
+  width: 500px;
   height: 100vh;
   color: white;
   background: linear-gradient(116.99deg, #e12d93 0%, #2f113e 99.54%);
@@ -170,7 +170,7 @@ section .right .top .qr-wrapper img {
   height: 100%;
 }
 
-section.right .middle {
+/*section.right .middle {
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -221,7 +221,7 @@ section.right .middle .accordion-body .icon-wrapper {
   line-height: 20px;
   letter-spacing: 0em;
   border-radius: 6px;
-  margin-top: 10px;
+  margin-top: 10px;*/
 }
 /* .grid-container {
   display: grid;
@@ -241,3 +241,105 @@ section.right .middle .accordion-body .icon-wrapper {
   text-transform: uppercase;
   font-weight: 600;
 } */
+
+
+.side-other {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px;
+    
+    
+}
+
+.dropbtn {
+    background-color: #2f113e;
+    color: white;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+    
+    
+  }
+
+  .drpicon- i{
+    font-size: 21px;
+    
+  }
+  
+  #pdrop{
+    margin: 60px 40px 0 40px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    color: white;
+    background-color: #2f113e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  .dropdown-content a {
+    color: white;
+   
+    text-decoration: none;
+    display: block;
+  }
+
+  #pdrop2{
+    margin: 20px 40px 0 40px;
+  }
+
+  #pdrop22{
+    margin: 20px 40px 0 40px;
+  }
+  
+  .dropdown-content a:hover {background-color: #2f113e;}
+  
+  .dropdown:hover .dropdown-content {display: flex; justify-content: space-around;}
+  
+  .dropdown:hover .dropbtn {background-color: #2f113e;}
+
+  .submit-button{
+    width: 300px;
+    background: #e650a5;
+    height: 50px;
+    margin-top: 10px;
+    border-style: none;
+    color: white;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  .submit-button:hover{
+    background-color:#e12d93;
+    color: #2f113e;
+  
+  }
+
+  .submit-button:hover{
+    color: purple;
+  }
+
+
+
+
+
+
+
+
+
+
