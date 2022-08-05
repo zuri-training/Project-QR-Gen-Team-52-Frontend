@@ -82,3 +82,11 @@
     border: none;
     margin: 10px 0px;
 }
+.mobil{
+    display: none;
+}
+.imag{
+    height: 12px;
+    width: 12px;
+    text-align: left;
+}
