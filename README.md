@@ -8,12 +8,10 @@ The team 52 QR code generator is an online software that creates QR code in a ty
 ## Features
 
 - User registration 
-- Light/dark mode toggle
 - Fullscreen mode
 - Cross platform
 - Edit of QR code colour
 - Autosave QR code on website
-
 
 
 ## FAQ
@@ -22,19 +20,7 @@ The team 52 QR code generator is an online software that creates QR code in a ty
 
 Yes.
 
-#### Is the website ad-free?
 
-Yes
-
-
-## Tech Stack
-
-**Client:** ZURI
-
-**Server:** ZURI
-
-
-## Run Locally
 
 Clone the project
 
@@ -59,36 +45,6 @@ Go to the project directory
 
 If you have any feedback, please reach out to us.
 
-## Color Reference
-
-| Hex                                                                |
-| ------------------------------------------------------------------ |
-|FFFFFF|
-|2F113E |
-| #47195C |
-|D9D9D9  |
-| E6E5DC |
-| E6EAEE |
-| 000000 |
-| D9D9D9 |
-| 2F113E |
-|FFFFFF  |
-| F9D5E9 |
-|F9D5E9  |
-| FBF8F8 |
-
-
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
 ## Acknowledgements
 
  - The Zuri Team.
@@ -96,4 +52,3 @@ Please adhere to this project's `code of conduct`.
 ## Authors
 
 - ZURI project Team 52
-
