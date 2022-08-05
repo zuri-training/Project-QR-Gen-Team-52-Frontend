@@ -18,8 +18,6 @@ The team 52 QR code generator is an online software that creates QR code in a ty
 
 Yes.
 
-
-
 Clone the project
 
 ```bash
@@ -35,8 +33,6 @@ Go to the project directory
 
 
 ## Screenshots
-
-![App Screenshot](Group 194.jpg)
 
 
 ## Feedback
