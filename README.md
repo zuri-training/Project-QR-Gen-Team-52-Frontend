@@ -1,5 +1,3 @@
-
-![Logo](logo\logo-black.png)
 # Team 52 QR code generator
 
 The team 52 QR code generator is an online software that creates QR code in a type of barcode that can be read easily by a digital device and which stores information as a series of pixels in a square-shaped grid that can be downloaded in various formats such as PNG, JPG, SVG, and EPS. 
