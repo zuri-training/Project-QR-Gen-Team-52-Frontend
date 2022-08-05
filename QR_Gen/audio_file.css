@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: linear-gradient(116.99deg, #E12D93 0%, #2F113E 99.54%);
+}
+
+.side-menu {
+    /* background: #F9D5E9; */
+    /* width: 1000px; */
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-nav {
+    height: 100%;
+    width: 420px;
+    background: #F9D5E9;
+    /* position: fixed; */
+    padding: 20px 30px;
+}
+
+.logo {
+    display: block;
+    margin: 20px 0;
+}
+
+.logo-img {
+    width: 127.93px;
+    height: 101.3px;
+}
+
+.nav-links {
+    list-style: none;
+    position: relative;
+}
+
+.nav-links li {
+    padding: 5px 0;
+}
+
+.nav-links li a {
+    opacity: 40%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-links li a i {
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.nav-links li:hover a {
+    color: #E12D93;
+    transition: 0.3s;
+}
+
+.nav-links li:hover~.active {
+    display: block;
+}
+
+.nav-links li:nth-child(1):hover~.active {
+    top: 0.5%;
+}
+
+.nav-links li:nth-child(2):hover~.active {
+    top: 11.6%;
+}
+
+.nav-links li:nth-child(3):hover~.active {
+    top: 22.5%;
+}
+
+.nav-links li:nth-child(4):hover~.active {
+    top: 33.6%;
+}
+
+.nav-links li:nth-child(5):hover~.active {
+    top: 44.6%;
+}
+
+.nav-links li:nth-child(6):hover~.active {
+    top: 55.8%;
+}
+
+.nav-links li:nth-child(7):hover~.active {
+    top: 66.8%;
+}
+
+.nav-links li:nth-child(8):hover~.active {
+    top: 77.9%;
+}
+
+.nav-links li:nth-child(9):hover~.active {
+    top: 89.0%;
+}
+
+.active {
+    background: #fff;
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: 2.5%;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(225, 225, 225, 0.4);
+    display: none;
+    transition: top 0.5s;
+}
+
+
+.side-middle {
+    margin: 30px;
+    background: #F9D5E9;
+
+}
+.side-other {
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .side-nav {
+        width: 110px;
+    }
+
+    .logo-icon {
+        display: block;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    .nav-links li a p {
+        display: none;
+    }
+
+    .nav-links li a i {
+        margin-right: 0;
+    }
+
+    .nav-links li a {
+        justify-content: center;
+    }
+}

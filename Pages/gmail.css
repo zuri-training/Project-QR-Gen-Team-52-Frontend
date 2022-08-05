@@ -1,0 +1,168 @@
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/Group.png), linear-gradient(90deg, rgba(225, 45, 142, 1) 10%, rgba(47, 17, 62, 1));
+    background-repeat: repeat-y, repeat;
+    background-position: left top, right bottom;
+    background-size: 300px, 100%;
+    color: #FEFAFA;
+
+}
+
+.signup1 {
+    margin: 10px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.8
+}
+
+.container {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 50%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#imgdiv {
+    /* width: 100%; */
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 70px;
+    align-items: center;
+}
+
+.acctcontinue {
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 5px 20px 5px 10px;
+}
+
+.acctcontinue1 {
+    display: flex;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+.chooseacct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 80px;
+}
+
+.chris {
+    /* width: 209px;
+height: 16px; */
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.chrisgmail {
+    width: 209px;
+    height: 16px;
+    left: 0px;
+    top: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+#zuriwhite-logo {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102);
+    width: 25%;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: rgba(161, 85, 197, 1);
+}
+
+#lastp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 414px) {
+    .signup1 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .container {
+        min-width: 90%;
+        margin: auto;
+        margin-top: 90px;
+    }
+
+    #choosep {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 744px) {
+    .container {
+        min-width: 70%;
+    }
+
+    #choosep {
+        font-size: 20px;
+    }
+
+    .signup1 {
+        font-size: 15px;
+    }
+
+    #zuriwhite-logo {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        min-width: 50%;
+    }
+
+    #choosep {
+        font-size: 25px;
+    }
+
+    .signup1 {
+        font-size: 15px;
+    }
+
+    #zuriwhite-logo {
+        width: 20%;
+        margin-left: 150px;
+    }
+}
