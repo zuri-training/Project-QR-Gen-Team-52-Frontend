@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .bnt1 {
     border-radius: 5px;
     border: none;
@@ -8,7 +8,7 @@
 }
 
 .bnt1:hover {
-    background: #E12D93 0%;
+    color: rgb(243, 128, 243);
 }
 
 .bnt2 {
@@ -19,7 +19,7 @@
 }
 
 .bnt2:hover {
-    background: #E12D93 0%;
+    color: rgb(243, 128, 243);
 }
 
 .bnt3 {
@@ -35,6 +35,10 @@
 
 .bnt3:hover {
     background: #E12D93 0%;
+}
+
+.privacy{
+    color: rgb(243, 128, 243);
 }
 
 .hrd {
@@ -83,10 +87,41 @@
     border: none;
     margin: 10px 0px;
 }
+.mobile{
+    display: inline;
+}
 .mobil{
     display: none;
 }
 .imag{
     height: 12px;
     width: 12px;
-    text-align: left;}
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 744px) {
+    header {
+        display: none;
+    }
+
+    body {
+        background: linear-gradient(116.99deg, #E12D93 0%, #2F113E 99.5);
+    }
+
+    .middle{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+
+
+   
+    .mobil{
+        display: inherit;
+        width: 300px;
+        height: 200px;
+        margin: 50px auto;
+        filter: brightness(10);
+    }
+}
