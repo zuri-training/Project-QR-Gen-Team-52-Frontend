@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/logo/logo-black.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
+    <title>QR Generator</title>
+  </head>
+  
+    <!-- code start -->
+  <body>
+    <header class="">
+        <div class="">
+          <nav class="navbar">
+            <div class="nav_logo">
+              <img src="../logo/logo-black.png" class="nav_logo" alt="" />
+              <p>TEAM 52</p>
+            </div>
+
+            <ul class="nav_links">
+              <li>
+                <a target="_blank" href="www.google.com">Home</a>
+              </li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <img id="bg_mobile" src="../logo/logo-white.png" alt="">
+
+  
+    <h1>Login to your account</h1>
+
+    <div id="container">
+      <table class="input-field">
+        <form action="#">
+          <tr>
+            <td id="labb">Email</td>
+          </tr>
+
+          <tr>
+            <td><input type="email" name="email" id="email" placeholder="  team52@zuri.com"></td>
+          </tr>
+
+          <tr>
+            <td id="labb">Password</td>
+          </tr>
+
+          <tr>
+            <td><input type="password" name="pword" id="password" minlength="5" placeholder="  Minimum of 8 characters"></td>
+          </tr>
+
+          <tr>
+            <td><button id="login" onclick="logIn()">Log In</button></td>
+          </tr>
+          <tr>
+            <td id="remm">
+              <div class="block">
+                <div class="block2">
+                  <input id="remember_me" type="checkbox" name="remember">
+                  <label for="remember_me">Remember me</label>
+                </div>
+                <a href="#">Forgot password</a>
+              </div>   
+            </td>
+          </tr>
+        </table>
+      </form>
+
+      <div id="pop" style="display: none;">
+        <div id="error-message">
+          <img src="../img/error.webp" alt="error icon" width="30px" height="30px">
+          <p>Incorrect login details entered</p>
+        </div>
+        <button id="continue" onclick="failText()">Continue</button>
+      </div>
+
+      <div id="pop1" style="display: none;">
+        <div id="success">
+          <img src="../img/success.png" alt="error icon" width="20px" height="20px">
+          <p>Login successful</p>
+        </div>
+
+        <!-- PLEASE REPLACE THE GOOGLE LINK IN THE NEXT LINE WITH THE DASHBOARD LINK-->
+
+        <button id="continue" onclick="window.location.href='https://google.com';">Continue</button>
+      </div>
+    </div>
+  
+          <p>OR</p>
+
+      <table class="input-alternate">
+        <tr>
+          <td>
+            <button>
+              <div class="google">
+                <p>Continue with Google</p>
+                <img src="../logo/googleicon.png" alt="" width="14" height="14">
+              </div>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button id="apple">
+              <div class="google apple">
+                <p>Continue with Apple</p>
+                <img src="../logo/appleicon.png" alt="" width="14" height="14">
+              </div>
+            </button>
+          </td>
+        </tr>
+      </table>
+      <hr>
+      <p class="foot">Don't have an account? <a href="#">Sign Up</a></p>
+
+  </body>
+</html>

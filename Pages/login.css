@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* header - navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #F9D5E9;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-top: 20px;
+}
+
+.nav_logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.nav_logo img {
+    height: 62px;
+    width: 79px;
+}
+
+.nav_logo p {
+    font-weight: 400;
+    font-size: 48px;
+    background: linear-gradient(116.99deg, #E12D93 0%, #2F113E 99.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links li {
+    padding: 0 15px;
+}
+
+.navbar a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav_links a:hover {
+    text-decoration: underline;
+    transition: ease-in-out 0.5s;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<MY CODE STARTS HERE>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    /* background: linear-gradient(to right, #E12D93, #2F113E); */
+    background-image: url("../img/WALL52.png");
+    background-size: cover;
+}
+
+#bg_mobile{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.input-field{
+    margin: 20px auto 0 auto;
+}
+
+.input-alternate{
+    margin: 10px auto 0 auto;
+}
+
+p{
+    text-align: center;
+}
+
+td{
+    width: 300px;
+    font-weight: 400;
+    height: 40px;
+}
+
+#email,#password,#login,button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#email,#password{
+    border: 1px solid palevioletred;
+}
+
+#login{
+    margin-top: 20px;
+    background-color: #2F113E;
+    color: white;
+    border: 1px solid #2F113E;
+}
+
+#login:active{
+    border: 1px solid #E12D93;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#apple{
+    margin: 30px 0 10px 0;
+}
+
+hr{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+#labb{
+    height: 20px;
+    font-size: 12px;
+}
+
+.google{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.apple{
+    margin-left: 27%;
+    margin-right: 27%;
+}
+
+button{
+    border: 1px solid white;
+}
+
+button:active{
+    border:1px solid #E12D93;
+}
+
+.foot{
+    font-size: 12px;
+}
+
+.foot a{
+    color: rgb(243, 128, 243);
+    font-weight: 600;
+}
+
+
+/* THIS PART IS FOR THE FAILED/SUCCESS LOGIN NOTIFICATION AND ARE NOT VISIBLE BY DEFAULT */
+
+#container{
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+}
+
+#pop,#pop1{
+    width: 350px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    transform: translateY(-240px);
+}
+
+#error-message,#success{
+    background-color: pink;
+    color: brown;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#continue{
+    background-color: pink;
+    color: brown;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    border: none;
+}
+
+#continue:active{
+    border: 1px solid brown;
+}
+
+#success{
+    background-color: rgba(42, 230, 67, 0.541);
+    color: #1b4c13;
+    height: 40px;
+}
+
+
+@media only screen and (max-width: 744px)  {
+    header {
+        display: none;
+      }
+    body{
+        background: linear-gradient(to right, #E12D93, #2F113E);    }
+
+    #bg_mobile{
+        display: inherit;
+        width: 300px;
+        height: 200px;
+        margin: 50px auto;
+        filter: brightness(10);
+    }
+    .foot{
+        margin-bottom: 50px;
+    }
+}
