@@ -19,7 +19,6 @@ body {
   padding: 110px 64px;
   background: #f9d5e9;
 }
-
 .nav-list-item i {
   color: #000000;
 }
@@ -57,7 +56,6 @@ body {
   flex-grow: 1;
   height: 1024px;
   background: #f9d5e9;
-  /* margin: 0 auto; */
   display: flex;
 }
 
@@ -131,6 +129,35 @@ section.left .contact-form input {
 section.left .contact-form input::placeholder {
   color: #000000;
   opacity: 0.4;
+}
+
+section.left .contact-form textarea {
+  width: 100%;
+  background: transparent;
+  background: #eb73b7;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+section.left .submit-button {
+  margin-top: 58px;
+  margin-left: 90px;
+  width: 50%;
+  background: #e650a5;
+  color: white;
+  padding: 17px 68px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  border-radius: 6px;
 }
 
 section.right {
@@ -209,8 +236,6 @@ section.right .middle .accordion-body .icon-wrapper img {
 .grid-container .grid-item {
   padding: 10px 32px;
   background-color: #2f113e;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 .grid-container .grid-item p {
