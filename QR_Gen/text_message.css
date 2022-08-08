@@ -19,8 +19,9 @@ body {
   padding: 110px 64px;
   background: #f9d5e9;
 }
-.nav-list-item i {
+.nav-list-item src {
   color: #000000;
+  /* padding: ; */
 }
 .nav-list-item span {
   color: #000000;
@@ -42,12 +43,16 @@ body {
   margin-top: 40px;
 }
 
-.nav-list-item i {
-  font-size: 16px;
+.nav-list-item img {
   min-width: 20px;
 }
-
-.nav-list-item span {
+.nav-list-item .icon-wrap img {
+  height: 100%;
+}
+.nav-list-item a .icon-wrap img {
+  height: 20px;
+}
+.nav-list-item .icon-wrap span {
   margin-left: 16px;
 }
 
@@ -97,28 +102,19 @@ section.left {
   padding-top: 256px;
 }
 
-section.left .section-title {
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-section.left .contact-form {
+section.left .Message-form {
   margin-top: 68px;
 }
 
-section.left .contact-form .form-group-label {
+section.left .Message-form .form-group-label {
   display: none;
 }
 
-section.left .contact-form .form-group + .form-group {
+section.left .Message-form .form-group + .form-group {
   margin-top: 44px;
 }
 
-section.left .contact-form input {
+section.left .Message-form input {
   width: 100%;
   background: transparent;
   border: 0;
@@ -126,17 +122,17 @@ section.left .contact-form input {
   padding: 4px 0;
 }
 
-section.left .contact-form input::placeholder {
+section.left .Message-form input::placeholder {
   color: #000000;
   opacity: 0.4;
 }
 
-section.left .contact-form textarea {
+section.left .Message-form textarea {
   width: 100%;
   background: transparent;
   background: #eb73b7;
   border-radius: 8px;
-  border: 1px solid #000000;
+  border: 0;
   padding: 20px 0;
   display: flex;
   flex-direction: column;
@@ -148,7 +144,7 @@ section.left .contact-form textarea {
 
 section.left .submit-button {
   margin-top: 58px;
-  margin-left: 90px;
+  margin-left: 179px;
   width: 50%;
   background: #e650a5;
   color: white;
