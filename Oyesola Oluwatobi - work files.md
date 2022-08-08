@@ -2,10 +2,10 @@
 ## 1. [Designed the landing page] ( https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/1 ) 
 ### [Solution] (https://www.figma.com/file/jPe6HV2Vkay0U5weAh0CYn/Landing-and-Home-page?node-id=6%3A2535)
 ---
-## 2. [Created Logo and logo types for style guide] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/44)
+## 2. [Created logo and logo types for style guide] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/44)
 ### [Solution] (https://www.figma.com/file/VZu6EEahhX9NPknsowAC6o/Logo-types-and-creation-for-Team-52?node-id=0%3A1)
 ---
-## 3. [Designed Buttons in the style guide] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/41)
+## 3. [Designed buttons in the style guide] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/41)
 ### [Solution] (https://www.figma.com/file/pKIIRvXR5UGp9L7q1Dhhuv/Buttons-for-Team-52?node-id=0%3A1)
 ---
 ## 4. [Designed the colour palette in the style guide] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/38 )
@@ -14,7 +14,7 @@
 ## 5. [Designed the typography in the style guide] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/37)
 ### [Solution] (https://www.figma.com/file/RJCOiSkn2nBWGm65DWzKEC/Typography-for-team-52?node-id=0%3A1)
 ---
-## 6. [Created the user Journey map] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/36 )
+## 6. [Created the user journey map] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/36 )
 ### [Solution] (https://www.figma.com/file/9fofxjYVtmcWxQpmkuFJZg/User-Journey-Map-for-Team-52?node-id=0%3A1)
 ---
 ## 7. [Conducted the first user interview] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/32 )
