@@ -23,5 +23,5 @@
 ## 8. [Created the user persona] (https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/31 )
 ### [Solution] (https://www.figma.com/file/M3hbr1WTjjuhYxvzJlMVXY/User-persona-for-Team_52?node-id=0%3A1)
 ---
-## 9. [Conducted the first User interview] ( https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/24 )
+## 9. [Conducted the first user interview] ( https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/24 )
 ### [Solution] (https://docs.google.com/document/d/1Sl9c4fZz1lRJOe4AoQ1t7W0TIjB6s4Oe9yj1wYFnchY/edit?usp=sharing)
