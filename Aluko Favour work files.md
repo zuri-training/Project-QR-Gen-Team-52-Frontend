@@ -1,0 +1,1 @@
+sign up page redo(developer Issue) - https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/14 solution:https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/blob/develop/Pages/signup.html https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/blob/develop/Pages/signup.css
