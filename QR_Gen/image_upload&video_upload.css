@@ -10,7 +10,8 @@ html,body{
   width: 100%;
   height: 100%;
   overflow-y: hidden;
-  background-color: #2f113e;
+  background-image: url(../img/bg2.png);
+  background-size: cover;
 }
 
 a{
@@ -28,7 +29,6 @@ a{
   height: 100vh;
   width: 520px;
   padding-left: 55px;
-  background: #f9d5e9;
 }
 
 .logo-wrapper {
@@ -65,10 +65,24 @@ a{
   border-left: 1px solid #00000040;
   flex-grow: 1;
   height: 100vh;
-  background: #f9d5e9;
   display: flex;
+  background: #f9d5e9;
+}
+.image-background-wrapper {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
+.image-background-wrapper img {
+  position: absolute;
+  opacity: 0.05;
+  transform: rotate(41deg);
+  height: 200px;
+  right: 62px;
+  bottom: 62px;
+}
 section > section {
   padding: 72px;
 }
