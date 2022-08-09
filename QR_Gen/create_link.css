@@ -8,8 +8,15 @@
   
   html,body{
     width: 100%;
+<<<<<<< HEAD
     
     background: linear-gradient(116.99deg, #e12d93 0%, #2f113e 99.54%);
+=======
+    height: 100%;
+    overflow-y: hidden;
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+>>>>>>> 4fb1486968a9ec340bbba8f71b8415b726b58acb
   }
   
   a{
@@ -27,7 +34,6 @@
     height: 100vh;
     width: 320px;
     padding-left: 55px;
-    background: #f9d5e9;
   }
   
   .logo-wrapper {
