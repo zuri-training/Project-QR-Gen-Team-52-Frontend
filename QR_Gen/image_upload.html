@@ -17,18 +17,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="email.css" />
-    <title>Send mail</title>
+    <link rel="stylesheet" href="image_upload&video_upload.css" />
+    <title>Image Upload</title>
   </head>
-
   <body>
     <div id="container">
-      <div class="sidebar">
+      <section class="sidebar">
         <div class="logo-wrapper">
           <img src="../logo/logo-white.png" alt="Logo" />
         </div>
         <nav class="nav">
-          <div id="anchors">
           <ul class="nav-list">
             <li class="nav-list-item">
               <a href="#"
@@ -48,13 +46,12 @@
             </li>
             <li class="nav-list-item">
               <a href="#"
-                ><i class="fa-solid fa-image"></i><span>Images</span></a
-              >
+                ><i class="fa-solid fa-image"></i><span>Images</span></a>
+              
             </li>
             <li class="nav-list-item">
-              <a href="#"
-                ><i class="fa-solid fa-video"></i><span>Videos</span></a
-              >
+              <a href="#">
+                <i class="fa-solid fa-video"></i><span>Videos</span></a>
             </li>
             <li class="nav-list-item">
               <a href="#"
@@ -68,59 +65,59 @@
                 ><span>Upload Files</span></a
               >
             </li>
-            <li class="nav-list-item maillink">
+            <li class="nav-list-item">
               <a href="#"
                 ><i class="fa-solid fa-envelope-circle-check"></i
                 ><span>Send Mail</span></a
               >
             </li>
           </ul>
-          </div>
         </nav>
-      </div>
+      </section>
 
-      <div class="left">
-          <h2 class="section-title">Add Details</h2>
-          <form class="contact-form" method="post">
-            <div class="form-group">
-              <table>
-                <tr><td><input
-                  type="text"
-                  name="name"
-                  placeholder="Company name"
-                  required
-                /></td></tr>
+      <section class="main">
+        <section class="left">
+            <div class="image_upload ">
+                <div class="image_text_1">
+                    <small class="exc"> <i class="fa-solid fa-image"></i></small>
+                <p >Image Upload</p>
+                <small class="chevron"><i class="fa-solid fa-chevron-up"></i></small>
+                    </div>
+                    <p class="img_desc">Upload or drag and drop images to include in your gallery</p>
+                    <div class="drag_drop">
+                        <h4 class="drag_drop_desc">Drag and drop images here</h4>
+                        <button class="default"> + Upload</button>
+                        <input class="file" type="file">
+                    </div>
+            
+            </div><br>
+            <div class="basic_info_box">
+                <div class="image_text_2">
+                    <small class="exc"><i class="fa fa-exclamation-circle"></i></small>
+                    <p id="info">Basic Information</p>
+                    <small class="chevron_i"> <i class="fa-solid fa-chevron-up"></i></small>
+                        </div>
+                        <span>Add text to your image to your gallery. Optionally add a link to your website</span>
+                        <form >
+                            <p><label >Title:</label>  <input type="text" id="title"  placeholder="Title for your gallery" > </p>
+                            <p> <label >Description: </label> <textarea id="description" cols="30" rows="10" placeholder="Description for your gallery"></textarea></p>
+    
+                            <p><label >Website:</label>  <input type="url" id="website"  placeholder="www.website.com"></p>
+                            </form>
+    
+                        </div>
+                        <div id="done"><button>Done</button></div>
+        
+        </section>
 
-                <tr><td><input
-                  type="text"
-                  name="email"
-                  placeholder="Email address"
-                  required
-                /></td></tr>
-
-                <tr><td><input type="text" name="name" placeholder="Address" required /></td></tr>
-              
-
-              
-
-              
-            </table>
-              <div id="done"><button>Done</button></div>
-            </div>
-          </form>
-        </div>
-
-      <div class="right">
+        <section class="right">
           <div class="top">
-            <!-- <div class="qr-wrapper"> -->
-              <img id="qr" src="../img/qr-large.png" alt="Qr large" width="150px" height="150px"/>
-            <!-- </div> -->
+            <div class="qr-wrapper">
+              <img src="../img/qr-large.png" alt="Qr large" />
+            </div>
           </div>
           
           <div class="side-other">
-            
-        
-
         <div class="dropdown" id="pdrop">
             <button class="dropbtn">Pattern <span class="material-symbols-outlined">
               keyboard_arrow_down
@@ -155,6 +152,9 @@
             <button class="dropbtn">Logo <span class="material-symbols-outlined">
               keyboard_arrow_down
               </span></button>
+              <div class="dropdown-content">
+                <input type="file" accept="image/*">
+              </div>
            
           </div>
   
@@ -163,7 +163,11 @@
           </div>
 
         </div>
-      </div>
+
+
+          
+        </section>
+      </section>
     </div>
   </body>
 </html>
