@@ -20,13 +20,15 @@
     <link rel="stylesheet" href="email.css" />
     <title>Send mail</title>
   </head>
+
   <body>
     <div id="container">
-      <section class="sidebar">
+      <div class="sidebar">
         <div class="logo-wrapper">
           <img src="../logo/logo-white.png" alt="Logo" />
         </div>
         <nav class="nav">
+          <div id="anchors">
           <ul class="nav-list">
             <li class="nav-list-item">
               <a href="#"
@@ -66,47 +68,53 @@
                 ><span>Upload Files</span></a
               >
             </li>
-            <li class="nav-list-item">
+            <li class="nav-list-item maillink">
               <a href="#"
                 ><i class="fa-solid fa-envelope-circle-check"></i
                 ><span>Send Mail</span></a
               >
             </li>
           </ul>
+          </div>
         </nav>
-      </section>
+      </div>
 
-      <section class="main">
-        <section class="left">
+      <div class="left">
           <h2 class="section-title">Add Details</h2>
           <form class="contact-form" method="post">
             <div class="form-group">
-              <input
-                type="text"
-                name="name"
-                placeholder="Company name"
-                required
-              />
+              <table>
+                <tr><td><input
+                  type="text"
+                  name="name"
+                  placeholder="Company name"
+                  required
+                /></td></tr>
 
-              <input
-                type="text"
-                name="email"
-                placeholder="Email address"
-                required
-              />
+                <tr><td><input
+                  type="text"
+                  name="email"
+                  placeholder="Email address"
+                  required
+                /></td></tr>
 
-              <input type="text" name="name" placeholder="Address" required />
+                <tr><td><input type="text" name="name" placeholder="Address" required /></td></tr>
+              
 
+              
+
+              
+            </table>
               <div id="done"><button>Done</button></div>
             </div>
           </form>
-        </section>
+        </div>
 
-        <section class="right">
+      <div class="right">
           <div class="top">
-            <div class="qr-wrapper">
-              <img src="../img/qr-large.png" alt="Qr large" />
-            </div>
+            <!-- <div class="qr-wrapper"> -->
+              <img id="qr" src="../img/qr-large.png" alt="Qr large" width="150px" height="150px"/>
+            <!-- </div> -->
           </div>
           
           <div class="side-other">
@@ -155,11 +163,7 @@
           </div>
 
         </div>
-
-
-          
-        </section>
-      </section>
+      </div>
     </div>
   </body>
 </html>
