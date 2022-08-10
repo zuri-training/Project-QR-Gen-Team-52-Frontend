@@ -53,7 +53,6 @@ body {
 .main {
   border-left: 1px solid #00000040;
   flex-grow: 1;
-  height: 1024px;
   background: #f9d5e9;
   display: flex;
   height: 100vh;
@@ -192,6 +191,7 @@ section.left .submit-button {
 section.right {
   width: 526px;
   color: white;
+  height: 100vh;
   background: linear-gradient(116.99deg, #e12d93 0%, #2f113e 99.54%);
 }
 
