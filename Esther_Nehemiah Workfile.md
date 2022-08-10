@@ -40,6 +40,12 @@
   <br>
   <br>
 
+* <h3> Connect QR Pages Templates to Backend and generate QR Codes: https://github.com/zuri-training/Project-QR-Gen-Team-52-Backend/issues/3 </h3>
+
+   **Solution**
+   https://github.com/zuri-training/Project-QR-Gen-Team-52-Backend/blob/88781e2d2c16605e124ec6991e867e663bf52a63/qrgen52/qrgen/views.py
+
+
 * <h3> Connect Registration and Login Page Templates to Database: https://github.com/zuri-training/Project-QR-Gen-Team-52-Backend/issues/2 </h3>
 
    **Solution**
