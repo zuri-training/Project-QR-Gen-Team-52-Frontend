@@ -1,15 +1,15 @@
 ### Front-End
 
-#### QR Page - Audio File Page [#65]
+#### QR Page - Audio File Page #65
 https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/65
 
-#### Home Page [#66]
+#### Home Page #66
 https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/66
 
 
 ### Back-End
 
-#### Google Authentication [#4]
+#### Google Authentication #4
 https://github.com/zuri-training/Project-QR-Gen-Team-52-Backend/issues/4
 
 #### Connect Qr Pages to Backend #3
