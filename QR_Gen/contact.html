@@ -11,6 +11,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
       integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
       crossorigin="anonymous"
@@ -27,42 +31,67 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-list-item">
+            <a href="create_link.html"
+              ><div class="icon-wrap"></div><img src="../img/Link.svg" alt="icon1" /><span> Create Link</span></div></a>
+            </li>
+          <li class="nav-list-item">
             <a href="#"
-              ><i class="fa-solid fa-link"></i><span> Create Link</span></a
+              ><div class="icon-wrap"><img src="../img/Contacts.svg" alt="icon2" /
+              ><span>Contact details </span></div></a
+            >
+         
+            
+          </li>
+          <li class="nav-list-item">
+            <a href="text_message.html"
+              ><div class="icon-wrap">
+                <img src="../img/Messages.svg" alt="icon3" /><span
+                  >Text Message</span
+                >
+              </div></a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a href="image_upload.html"
+              ><div class="icon-wrap">
+                <img src="../img/Image.svg" alt="icon4" /><span>Images</span>
+              </div></a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a href="video_upload.html"
+              ><div class="icon-wrap">
+                <img src="../img/Video Camera.svg" alt="icon5" /><span
+                  >Videos</span
+                >
+              </div></a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a href="audio_file.html"
+              ><div class="icon-wrap">
+                <img src="../img/Audio.svg" alt="icon6" /><span
+                  >Audio File</span
+                >
+              </div></a
             >
           </li>
           <li class="nav-list-item">
             <a href="#"
-              ><i class="fa-solid fa-person"></i
-              ><span>Contact details </span></a
+              ><div class="icon-wrap">
+                <img src="../img/Upload To FTP.svg" alt="icon7" /><span
+                  >Upload Files</span
+                >
+              </div></a
             >
           </li>
           <li class="nav-list-item">
             <a href="#"
-              ><i class="fa-solid fa-comment"></i><span>Text Message</span></a
-            >
-          </li>
-          <li class="nav-list-item">
-            <a href="#"><i class="fa-solid fa-image"></i><span>Images</span></a>
-          </li>
-          <li class="nav-list-item">
-            <a href="#"><i class="fa-solid fa-video"></i><span>Videos</span></a>
-          </li>
-          <li class="nav-list-item">
-            <a href="#"
-              ><i class="fa-solid fa-volume-high"></i><span>Audio File</span></a
-            >
-          </li>
-          <li class="nav-list-item">
-            <a href="#"
-              ><i class="fa-solid fa-file-arrow-up"></i
-              ><span>Upload Files</span></a
-            >
-          </li>
-          <li class="nav-list-item">
-            <a href="#"
-              ><i class="fa-solid fa-envelope-circle-check"></i
-              ><span>Send Mail</span></a
+              ><div class="icon-wrap">
+                <img src="../img/Send Email.svg" alt="icon8" /><span
+                  >Send Mail</span
+                >
+              </div></a
             >
           </li>
         </ul>
@@ -133,50 +162,68 @@
             <img src="../img/qr-large.png" alt="Qr large" />
           </div>
         </div>
-        <div class="middle">
-          <div class="accordion-list">
-            <div class="accordion">
-              <div class="accordion-top">
-                <p>Pattern</p>
-                <i class="fa-solid fa-chevron-down"></i>
-              </div>
-              <div class="accordion-body">
-                <div class="icon-wrapper">
-                  <img src="../img/qr-1.svg" alt="qr-1" />
-                </div>
-                <div class="icon-wrapper">
-                  <img src="../img/qr-2.svg" alt="qr-2" />
-                </div>
-                <div class="icon-wrapper">
-                  <img src="../img/qr-3.svg" alt="qr-3" />
-                </div>
-                <div class="icon-wrapper">
-                  <img src="../img/qr-4.svg" alt="qr-4" />
-                </div>
-              </div>
-            </div>
-            <div class="accordion">
-              <div class="accordion-top">
-                <p>Color</p>
-                <i class="fa-solid fa-chevron-down"></i>
-              </div>
-            </div>
-            <div class="accordion">
-              <div class="accordion-top">
-                <p>Logo</p>
-                <i class="fa-solid fa-chevron-down"></i>
-              </div>
+        <div class="side-other">
+          <div class="dropdown" id="pdrop">
+            <button class="dropbtn">
+              Pattern
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <a href="#"
+                ><span class="material-symbols-outlined">
+                  qr_code_scanner
+                </span></a
+              >
+              <a href="" class="drpicon-"
+                ><i class="fa-solid fa-qrcode"></i
+              ></a>
+              <a href="#"
+                ><span class="material-symbols-outlined"> qr_code_2 </span></a
+              >
+              <a href="#"
+                ><span class="material-symbols-outlined"> qr_code </span></a
+              >
             </div>
           </div>
-          <div class="grid-container">
-              <div class="grid-item"><p>png</p></div>
-              <div class="grid-item"><p>Jpg</p></div>
-              <div class="grid-item"><p></p>Pdf</p></div>
-          </div>
-        </div>
 
-        <div class="bottom">
-          <button type="submit" class="submit-button">Generate QR Code</button>
+          <div class="dropdown" id="pdrop2">
+            <button class="dropbtn">
+              Color
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <a href="#"
+                ><label for="colorpicker">Color Picker:</label>
+                <input type="color" id="colorpicker" value="black"
+              /></a>
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="dropdown" id="pdrop22">
+            <button class="dropbtn">
+              Logo
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <input type="file" accept="image/*" />
+            </div>
+          </div>
+
+          <div class="bottom" class="dropdown" id="pdrop2">
+              <button type="submit" class="submit-button">
+                Generate QR Code
+              </button>
+            </div>
+
+          <!-- <button type="submit" class="submit-button">Generate QR Code</button> -->
         </div>
       </section>
     </main>

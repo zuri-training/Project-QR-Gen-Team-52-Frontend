@@ -9,7 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -22,6 +25,23 @@
   </head>
 
   <body>
+    <header class="">
+      <div class="flex-bar">
+        <nav class="navbar">
+          <div class="nav_logo">
+            <img src="../logo/logo-black.png" class="nav_logo" alt="" />
+            <p>TEAM 52</p>
+          </div>
+          <input
+            type="search"
+            name=""
+            id="search-bar"
+            placeholder="Search for codes"
+            value=""
+          />
+        </nav>
+      </div>
+    </header>
     <div id="container">
       <div class="sidebar">
         <div class="logo-wrapper">
@@ -29,88 +49,109 @@
         </div>
         <nav class="nav">
           <div id="anchors">
-          <ul class="nav-list">
-            <li class="nav-list-item">
-              <a href="#"
-                ><i class="fa-solid fa-link"></i><span> Create Link</span></a
-              >
-            </li>
-            <li class="nav-list-item">
-              <a href="#"
-                ><i class="fa-solid fa-person"></i
-                ><span>Contact details </span></a
-              >
-            </li>
-            <li class="nav-list-item">
-              <a href="#"
-                ><i class="fa-solid fa-comment"></i><span>Text Message</span></a
-              >
-            </li>
-            <li class="nav-list-item">
-              <a href="#"
-                ><i class="fa-solid fa-image"></i><span>Images</span></a
-              >
-            </li>
-            <li class="nav-list-item">
-              <a href="#"
-                ><i class="fa-solid fa-video"></i><span>Videos</span></a
-              >
-            </li>
-            <li class="nav-list-item">
-              <a href="#"
-                ><i class="fa-solid fa-volume-high"></i
-                ><span>Audio File</span></a
-              >
-            </li>
-            <li class="nav-list-item">
-              <a href="#"
-                ><i class="fa-solid fa-file-arrow-up"></i
-                ><span>Upload Files</span></a
-              >
-            </li>
-            <li class="nav-list-item maillink">
-              <a href="#"
-                ><i class="fa-solid fa-envelope-circle-check"></i
-                ><span>Send Mail</span></a
-              >
-            </li>
-          </ul>
+            <div class="nav-list">
+              <div class="nav-list-item clink">
+                <a href="#"
+                  ><i class="fa-solid fa-link fa-2xl"></i><span> Create Link</span></a
+                >
+              </div>
+
+              <div class="nav-list-item">
+                <a href="#"
+                  ><i class="fa-solid fa-person fa-2xl"></i
+                  ><span>Contact details </span></a
+                >
+              </div>
+
+              <div class="nav-list-item">
+                <a href="#"
+                  ><i class="fa-solid fa-comment fa-2xl"></i
+                  ><span>Text Message</span></a
+                >
+              </div>
+
+              <div class="nav-list-item">
+                <a href="#"
+                  ><i class="fa-solid fa-image fa-2xl"></i><span>Images</span></a
+                >
+              </div>
+
+              <div class="nav-list-item">
+                <a href="#"
+                  ><i class="fa-solid fa-video fa-2xl"></i><span>Videos</span></a
+                >
+              </div>
+
+              <div class="nav-list-item">
+                <a href="#"
+                  ><i class="fa-solid fa-volume-high fa-2xl"></i
+                  ><span>Audio File</span></a
+                >
+              </div>
+
+              <div class="nav-list-item">
+                <a href="#"
+                  ><i class="fa-solid fa-file-arrow-up fa-2xl"></i
+                  ><span>Upload Files</span></a
+                >
+              </div>
+
+              <div class="nav-list-item maillink">
+                <a href="#"
+                  ><i class="fa-solid fa-envelope-circle-check fa-2xl"></i
+                  ><span>Send Mail</span></a
+                >
+                  </div>
+            </div>
           </div>
         </nav>
       </div>
 
       <div class="left">
-          <h2 class="section-title">Add Details</h2>
-          <form class="contact-form" method="post">
-            <div class="form-group">
-              <table>
-                <tr><td><input
-                  type="text"
-                  name="name"
-                  placeholder="Company name"
-                  required
-                /></td></tr>
+        <h2 class="section-title">Add Details</h2>
+        <form class="contact-form" method="post">
+          <div class="form-group">
+            <table>
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Company name"
+                    required
+                  />
+                </td>
+              </tr>
 
-                <tr><td><input
-                  type="text"
-                  name="email"
-                  placeholder="Email address"
-                  required
-                /></td></tr>
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Email address"
+                    required
+                  />
+                </td>
+              </tr>
 
-                <tr><td><input type="text" name="name" placeholder="Address" required /></td></tr>
-              
-
-              
-
-              
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Address"
+                    required
+                  />
+                </td>
+              </tr>
             </table>
-              <div id="done"><button>Done</button></div>
-            </div>
-          </form>
-        </div>
+            <div id="done"><button>Done</button></div>
+          </div>
+        </form>
+      </div>
 
       <div class="right">
+<<<<<<< HEAD
           <div class="top">
             <!-- <div class="qr-wrapper"> -->
               <img id="qr" src="../img/qr-large.png" alt="Qr large" width="150px" height="150px"/>
@@ -120,48 +161,78 @@
           <div class="side-other">
             
         
+=======
+        <div class="top">
+          <!-- <div class="qr-wrapper"> -->
+          <img
+            id="qr"
+            src="../img/qr-large.png"
+            alt="Qr large"
+            width="150px"
+            height="150px"
+          />
+          <!-- </div> -->
+        </div>
+>>>>>>> 5c94f404320945303e13e0dfea6dcd550a21dae3
 
-        <div class="dropdown" id="pdrop">
-            <button class="dropbtn">Pattern <span class="material-symbols-outlined">
-              keyboard_arrow_down
-              </span></button>
+        <div class="side-other">
+          <div class="dropdown" id="pdrop">
+            <button class="dropbtn">
+              Pattern
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </button>
             <div class="dropdown-content">
-              <a href="#"><span class="material-symbols-outlined">
-                qr_code_scanner
-                </span></a>
-               <a href="" class="drpicon-"><i class="fa-solid fa-qrcode"></i></a>
-              <a href="#"><span class="material-symbols-outlined">
-                qr_code_2
-                </span></a>
-              <a href="#"><span class="material-symbols-outlined">
-                qr_code
-                </span></a>
+              <a href="#"
+                ><span class="material-symbols-outlined">
+                  qr_code_scanner
+                </span></a
+              >
+              <a href="" class="drpicon-"><i class="fa-solid fa-qrcode"></i></a>
+              <a href="#"
+                ><span class="material-symbols-outlined"> qr_code_2 </span></a
+              >
+              <a href="#"
+                ><span class="material-symbols-outlined"> qr_code </span></a
+              >
             </div>
           </div>
-  
+
           <div class="dropdown" id="pdrop2">
-            <button class="dropbtn">Color <span class="material-symbols-outlined">
-              keyboard_arrow_down
-              </span></button>
+            <button class="dropbtn">
+              Color
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </button>
             <div class="dropdown-content">
-              <a href="#"><label for="colorpicker">Color Picker:</label>
-                <input type="color" id="colorpicker" value="black"></a>
+              <a href="#"
+                ><label for="colorpicker">Color Picker:</label>
+                <input type="color" id="colorpicker" value="black"
+              /></a>
               <a href="#"></a>
               <a href="#"></a>
             </div>
           </div>
-  
+
           <div class="dropdown" id="pdrop22">
-            <button class="dropbtn">Logo <span class="material-symbols-outlined">
-              keyboard_arrow_down
-              </span></button>
-           
-          </div>
-  
-          <div class="bottom" class="dropdown" id="pdrop2">
-            <button type="submit" class="submit-button">Generate QR Code</button>
+            <button class="dropbtn">
+              Logo
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <input type="file" accept="image/*" />
+            </div>
           </div>
 
+          <div class="bottom" class="dropdown" id="pdrop2">
+            <button type="submit" class="submit-button">
+              Generate QR Code
+            </button>
+          </div>
         </div>
       </div>
     </div>
