@@ -1,0 +1,673 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: linear-gradient(116.99deg, #E12D93 0%, #2F113E 99.54%);
+}
+
+/* header - navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #F9D5E9;
+    width: 1440px;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    /* margin-top: 20px; */
+}
+
+.nav_links a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.nav_logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.nav_logo img {
+    height: 62px;
+    width: 79px;
+}
+
+.fifth-below p:hover{
+    color: #2F113E;
+}
+
+.middle-below p:hover{
+    color: #2F113E;
+}
+
+.third-belows p:hover{
+    color: #2F113E;
+}
+
+.lastend p:hover{
+    color: white;
+}
+
+.nav_logo p {
+    font-weight: 400;
+    font-size: 48px;
+    background: linear-gradient(116.99deg, #E12D93 0%, #2F113E 99.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links li {
+    padding: 0 15px;
+}
+
+.navbar a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav_links a:hover {
+    text-decoration: underline;
+    transition: ease-in-out 0.5s;
+}
+
+.below-sec{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.below-sec span{
+    color: #D9BBE8;
+}
+
+.below-inp{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+.below-inp i {
+    position: absolute;
+    padding: 12px 5px 5px 5px;
+    color: white;
+    opacity: 60%;
+    font-size: 13px;
+}
+
+input{
+    width:300px;
+    background: none;
+    padding: 10px 0 10px 22px;
+    border-radius: 10px ;
+    border
+    
+}
+
+
+::placeholder {
+    color: white;
+    opacity: 60%;
+    padding: 10px;
+    
+}
+
+.middle-below{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 50px;
+}
+.middle-below i{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.middle-below1 i{
+    margin: 30px;
+}
+
+.middle-below2 span{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.middle-below h2{
+    color: white;
+    
+}
+
+.middle-below p{
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.third-belows {
+    
+    color: white;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.third-belows i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.third-belows p{
+    color: white;
+    font-size: 15px;
+    line-height: 50px; 
+    
+}
+
+.third-belows h2{
+    color: white;
+}
+
+.fourth-below{
+    display: flex ;
+    justify-content: center;
+    height: 80px;
+    background-color: #F5B9DB;
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 40px;
+    color: black;
+    
+    
+}
+.fourth-below h4{
+    font-weight: 600;
+}
+
+.logobelowtext p{
+    color: white;
+    opacity: 20px;
+
+}
+
+
+.movebelow{
+    margin: 120px;
+}
+
+.fifth-below{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(249, 213, 233, 0.5);
+    padding: 50px 0;
+}
+
+.fifth-below a{
+    color: white;
+}
+
+.fifth-below p{
+    font-size: 15px;
+    line-height: 40px;
+    opacity: 10px;
+}
+
+.fifth-below h4{
+    color: black;
+}
+
+.fourth-below button{
+    padding: 18px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: #E650A5;
+    border-style: none;
+    color: white;
+    margin-top: -30px;
+    
+}
+
+.smlogos{
+    padding: 15px;
+    line-height: 25px;
+    word-spacing: 15px;
+
+
+}
+
+.smlogos h4{
+    word-spacing: 1px !important;
+}
+
+span hr{
+    color: black;
+}
+
+
+
+.lastend{
+    background-color: rgba(249, 213, 233, 0.5);
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    padding: 20px 20px 50px 20px;
+}
+
+.adjust{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    
+}
+
+.adjust p{
+    color: black;
+}
+
+.mobbelow{
+    display: none;
+}
+
+.mobbelow2{
+    display: none;
+}
+
+.forlogobelow1{
+    display: none;
+}
+
+.nav_logo1{
+    display: none;
+}
+
+.mobbelow{
+    display: none;
+}
+
+.mobilehader{
+    display: none;
+}
+
+.third{
+    display: none;
+}
+
+
+
+
+
+
+/*code for 744*/
+
+@media only screen and (max-width: 744px){
+
+
+    .mobnav_links{
+        display: flex;
+        margin-right: 30px;
+        
+    }
+
+    
+
+    .mobnav_logo{
+        margin-right: 30px;
+    }
+
+    .mobnavbar{
+        display: flex;
+       
+
+    }
+   
+    .mobilehader{
+        display: flex;
+        flex-direction: row;
+        background-color: #F9D5E9;
+        padding: 5px;
+    
+    }
+
+    .mobnav_links a{
+        margin-left: 10px;
+        color: black;
+    }
+
+   input{
+        margin-left: -50px;
+        width: 200px;
+    }
+
+    .below-inp i {
+        position: absolute;
+        margin-left:  -50px;
+        color: white;
+        opacity: 60%;
+        font-size: 13px;
+    }
+
+    .navbar{
+        display: none;
+    }
+    .middle-below{
+        display: none;
+    }
+
+    .third-belows{
+        display: none;
+    }
+
+    .navbar p{
+        font-size: 30px;
+
+    }
+
+    .nav_links a{
+        font-size: 15px;
+        word-spacing: 10px;
+    }
+
+    .nav_logo{
+      display: none;
+
+    }
+    
+    .mobbelow{
+        display: flex;
+        
+       
+    }
+    
+    .mobbelow2{
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .mobile-below3{
+        margin: 10px 5px;
+        line-height: 40px;
+      
+    }
+   
+
+    .mobile-below11{
+        margin: 10px 40px;
+        line-height: 20px;
+        color: white; 
+        margin: 10px 8px;
+    }
+
+    .mobile-below11 h2{
+        color: white;
+        padding-top: 25px;
+        font-size: 20px;
+    }
+
+    .mobile-below2 h2{
+        color: white;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .mobile-below2 p{
+        color: white;
+        font-size: 12px;
+    }
+
+    .mobile-below3 p{
+        color: white;
+        font-size: 12px;
+    }
+
+    .mobile-below4 p{
+        color: white;
+        font-size: 12px;
+    }
+
+    .mobile-below11 p{
+        line-height: 50px;
+        color: white;
+        font-size: 12px;
+    }
+
+    .mobile-below4{
+        margin: 10px 10px; 
+        line-height: 50px;
+    }
+
+    
+
+    .mobile-below2{
+        
+        margin: 10px 10px; 
+        line-height: 40px;
+    }
+
+    .mobile-below4 i{
+        font-size: 30px;
+        margin: 10px;
+        
+    }
+
+    .mobile-below3 h2{
+        color: white;
+        font-size: 20px;
+    }
+
+    .mobile-below4 h2{
+        color: white;
+        font-size: 20px;
+    }
+
+    .mobile-below11 i{
+        font-size: 30px;
+        margin: 30px 10px 10px 10px;
+    }
+
+    .mobile-below3 i{
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    .mobile-below2 span{
+        font-size: 50px;
+       
+    }
+
+    .fourth-below{
+        display: flex;
+        margin-left: -350px;
+    }
+
+    .below-sec h1{
+        margin-left: -350px;
+        font-size: 20px;
+    }
+
+    .below-inp{
+        margin-left: -350px;
+    }
+
+    
+
+    .fifth-below p{
+        font-size: 10px;
+    }
+
+    .fifth-below h1{
+        font-size: px;
+    }
+
+    .forlogobelow{
+        width: 200px;
+    }
+
+    .forlogobelow{
+        display: none;
+    }
+    .forlogobelow1{
+       
+    }
+
+    .adjust{
+        margin-left: -900px;
+    }
+
+    .forlogobelow1{
+        display: block;
+        padding-left: 20px;
+    }
+    .logobelowtext p{
+        font-size: 10px; 
+        padding-left: 5px;   
+    }
+
+    .logobelowtext h3{
+        font-size: 10px;
+    }
+
+    .smlogs{
+       padding-right:300px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 428px){
+    .mobbelow{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+    
+    .mobbelow2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    
+
+    .mobile-below4 h2{
+        font-size: 12px;
+    }
+
+    .mobile-below11 h2{
+        font-size: 12px;
+    }
+
+    .mobile-below2 h2{
+        font-size: 10px;
+    }
+
+    .mobile-below3 h2{
+        font-size: 12px;
+    }
+
+    .mobile-below2 p{
+        font-size: 7px;
+        line-height: 20px;
+    }
+    .mobile-below3 p{
+        font-size: 7px;
+        line-height: 20px;
+    }
+    .mobile-below11 p{
+        font-size: 7px;
+        line-height: 20px;
+    }
+    .mobile-below4 p{
+        font-size: 7px;
+        line-height: 20px;
+    }
+
+    .below-sec h1{
+        font-size: 10px;
+       padding-left: 100px ;
+    }
+
+    input{
+        margin-left: 80px;
+        width: 150px;
+
+    }
+
+    .fifth-below{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobilehader{
+        display:none;
+    }
+
+    .lastend{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 8px;
+
+       
+       
+        
+    }
+
+    .fourth-below{
+        padding: -200px;
+    }
+
+    .fourth-below button{
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    .fourth-below h4{
+        font-size: 15px;
+        padding-left: 180px;
+    }
+    .third{
+        display: flex;
+        margin: 20px;
+    }
+
+    .logobelowtext{
+        margin: 15px 0;
+    }
+
+    .logobelowtext h3{
+        font-size: 15px;
+    }
+}
