@@ -53,7 +53,6 @@ body {
 .main {
   border-left: 1px solid #00000040;
   flex-grow: 1;
-  height: 1024px;
   background: #f9d5e9;
   display: flex;
   height: 100vh;
@@ -62,7 +61,6 @@ body {
 .image-background-wrapper {
   height: 100vh;
   width: 100%;
-  /* position: fixed; */
   top: 0;
   left: 0;
   z-index: -1;
@@ -94,8 +92,6 @@ main > section {
 }
 
 section.left {
-  /* flex-grow: 1;
-  padding-top: 256px; */
   flex-grow: 1;
   padding-top: 100px;
   height: 100vh;
@@ -105,7 +101,6 @@ section.left .Message-form {
   margin-top: 68px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 section.left .Message-form .form-group-label {
@@ -119,6 +114,7 @@ section.left .Message-form .form-group + .form-group {
 section.left .Message-form .form-group {
   width: 375px;
   height: 374;
+  align-items: center;
 }
 
 section.left .Message-form input {
@@ -195,6 +191,7 @@ section.left .submit-button {
 section.right {
   width: 526px;
   color: white;
+  height: 100vh;
   background: linear-gradient(116.99deg, #e12d93 0%, #2f113e 99.54%);
 }
 
