@@ -317,9 +317,10 @@ table{
     .nav-list{
       width: 100%;
       margin: 0 auto;
+      padding-right: 41px;
       display: grid;
-      grid-gap: 1em;
-      grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+      grid-gap: 0.5em;
+      grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));
       /* flex-direction: column; */
       /* row-gap: 2em;
       column-gap: 2em; */
@@ -335,7 +336,7 @@ table{
     .nav-list-item a{
       display: flex;
       flex-direction: column;
-      padding-top: 50px;
+      padding-top: 40px;
       color: #CE9BBE;
     }
     /* .clink{
