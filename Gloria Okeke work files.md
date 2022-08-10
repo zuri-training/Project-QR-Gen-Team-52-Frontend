@@ -1,0 +1,1 @@
+Created Gmail Redo Page - https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/16    solution - https://www.figma.com/file/1g4hAgOiGRBuPEJGPnRWKj/Zuri-Team-52-(Qr-generator)?node-id=805%3A6040
