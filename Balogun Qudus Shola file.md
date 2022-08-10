@@ -7,3 +7,8 @@ Developed Create_link ( Under Qr pages): https://github.com/zuri-training/Projec
 Solution:  Html Link: https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/blob/develop/QR_Gen/create_link.html
 
 Css Link: https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/blob/develop/QR_Gen/create_link.css
+
+Developed Help page: https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/69 
+Solution: css link https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/blob/develop/Pages/help.css
+
+html-link     https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/blob/develop/Pages/help.html
