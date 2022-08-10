@@ -203,6 +203,10 @@ button{
     display: block;
 }
 
+.shelf p:hover{
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 744px) {
     .shelf{
         background-color: #6B1A5A;
