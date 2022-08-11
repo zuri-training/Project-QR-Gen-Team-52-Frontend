@@ -172,15 +172,14 @@ input{
 
 .middle-below p{
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 50px;
 }
 
 .third-belows {
-    
     color: white;
     margin-top: 20px;
-    margin-left: 160px;
+    margin-left: 130px;
 }
 
 .third-belows i{
@@ -191,7 +190,7 @@ input{
 
 .third-belows p{
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 50px; 
     
 }
@@ -336,15 +335,27 @@ span hr{
 
     .mobnav_links{
         display: flex;
-        margin-right: 30px;
+        
         
     }
 
     
 
     .mobnav_logo{
+        display: flex;
         margin-right: 30px;
+        
     }
+
+    .mobnav_logo p{
+       color: #961E62;
+       font-size: 24px;
+      
+    }
+
+    
+
+    
 
     .mobnavbar{
         display: flex;
@@ -355,24 +366,36 @@ span hr{
     .mobilehader{
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         background-color: #F9D5E9;
         padding: 5px;
     
     }
 
+    .mobnav_links{
+        margin-top: 5px;
+    }
+
     .mobnav_links a{
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-right: 20px ;
+       font-size: 15px;
         color: black;
     }
 
+    .mobnav_icon{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
    input{
-        margin-left: -50px;
-        width: 200px;
+        margin-left: 300px;
+        width: 400px;
     }
 
     .below-inp i {
         position: absolute;
-        margin-left:  -50px;
+        margin-left:  300px;
         color: white;
         opacity: 60%;
         font-size: 13px;
@@ -396,7 +419,7 @@ span hr{
 
     .nav_links a{
         font-size: 15px;
-        word-spacing: 10px;
+      
     }
 
     .nav_logo{
@@ -406,13 +429,14 @@ span hr{
     
     .mobbelow{
         display: flex;
-        
+        justify-content: space-around;
        
     }
     
     .mobbelow2{
         display: flex;
-        margin-top: 40px;
+        justify-content: space-around;
+        margin-top: 20px;
     }
 
     .mobile-below3{
@@ -423,10 +447,10 @@ span hr{
    
 
     .mobile-below11{
-        margin: 10px 40px;
+        
         line-height: 20px;
         color: white; 
-        margin: 10px 8px;
+        
     }
 
     .mobile-below11 h2{
@@ -463,21 +487,20 @@ span hr{
     }
 
     .mobile-below4{
-        margin: 10px 10px; 
         line-height: 50px;
+        margin-right: 200px;
     }
 
     
 
     .mobile-below2{
-        
-        margin: 10px 10px; 
-        line-height: 40px;
+       line-height: 40px;
+       margin-right: 150px;
     }
 
     .mobile-below4 i{
         font-size: 30px;
-        margin: 10px;
+       
         
     }
 
@@ -506,14 +529,27 @@ span hr{
        
     }
 
+    .mobile-below11 p:hover{
+        color: #2F113E;
+    }
+    .mobile-below2 p:hover{
+        color: #2F113E;
+    }
+    .mobile-below3 p:hover{
+        color: #2F113E;
+    }
+    .mobile-below4 p:hover{
+        color: #2F113E;
+    }
+    
+
     .fourth-below{
         display: flex;
-        margin-left: -350px;
+        
     }
 
     .below-sec h1{
-        margin-left: -350px;
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .below-inp{
@@ -523,12 +559,10 @@ span hr{
     
 
     .fifth-below p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
-    .fifth-below h1{
-        font-size: px;
-    }
+    
 
     .forlogobelow{
         width: 200px;
@@ -550,17 +584,15 @@ span hr{
         padding-left: 20px;
     }
     .logobelowtext p{
-        font-size: 10px; 
-        padding-left: 5px;   
+        font-size: 15px; 
+          
     }
 
     .logobelowtext h3{
-        font-size: 10px;
+        font-size: 17px;
     }
 
-    .smlogs{
-       padding-right:300px;
-    }
+    
     
 
 }
@@ -569,6 +601,7 @@ span hr{
     .mobbelow{
         display: flex;
         flex-direction: column;
+        padding: 10px;
         
        
     }
@@ -577,50 +610,51 @@ span hr{
         display: flex;
         flex-direction: column;
         margin-top: 40px;
+        padding: 10px;
     }
 
     
 
     .mobile-below4 h2{
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .mobile-below11 h2{
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .mobile-below2 h2{
-        font-size: 10px;
+        font-size: 20px;
+        
     }
 
     .mobile-below3 h2{
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .mobile-below2 p{
-        font-size: 7px;
+        font-size: 10px;
         line-height: 20px;
     }
     .mobile-below3 p{
-        font-size: 7px;
+        font-size: 10px;
         line-height: 20px;
     }
     .mobile-below11 p{
-        font-size: 7px;
+        font-size:10px;
         line-height: 20px;
     }
     .mobile-below4 p{
-        font-size: 7px;
+        font-size: 10px;
         line-height: 20px;
     }
 
     .below-sec h1{
-        font-size: 10px;
-       padding-left: 100px ;
+        font-size:29px;
     }
 
     input{
-        margin-left: 80px;
+        padding-left: 10px;
         width: 150px;
 
     }
@@ -646,17 +680,18 @@ span hr{
     }
 
     .fourth-below{
-        padding: -200px;
+       
     }
 
     .fourth-below button{
-        padding: 7px;
-        font-size: 10px;
+        padding: 20px;
+        font-size: 15px;
     }
 
     .fourth-below h4{
         font-size: 15px;
-        padding-left: 180px;
+        padding: 10px;
+        
     }
     .third{
         display: flex;
@@ -668,6 +703,24 @@ span hr{
     }
 
     .logobelowtext h3{
-        font-size: 15px;
+        font-size: 20px;
     }
+
+    .sixth-below p{
+        font-size: 20px;
+    }
+
+    .callcl{
+        font-size: 20px;
+    }
+
+    .smlogs{
+        font-size: 20px;
+    }
+
+    .lastend p {
+        font-size: 12px;
+    }
+
+    
 }
