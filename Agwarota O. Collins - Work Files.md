@@ -1,3 +1,15 @@
+ABOUT US PAGE(Front end- #68)
+
+SOLUTION:
+HTML:
+https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/blob/88e15f9356055e7f6d65e4d7e9d48b17fba69b5a/Pages/about_us.html
+
+CSS:
+https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/blob/88e15f9356055e7f6d65e4d7e9d48b17fba69b5a/Pages/about_us.css
+
+
+
+
 Designed(Front-End) QR Code Downloading & QR Code Saving Page(issue#7): https://github.com/zuri-training/Project-QR-Gen-Team-52-Frontend/issues/7   
 
 SOLUTION:
