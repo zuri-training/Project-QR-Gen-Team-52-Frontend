@@ -339,6 +339,8 @@ span hr{
         
     }
 
+   
+
     
 
     .mobnav_logo{
@@ -364,11 +366,8 @@ span hr{
     }
    
     .mobilehader{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: #F9D5E9;
-        padding: 5px;
+        display: none;
+        
     
     }
 
@@ -401,9 +400,7 @@ span hr{
         font-size: 13px;
     }
 
-    .navbar{
-        display: none;
-    }
+    
     .middle-below{
         display: none;
     }
@@ -422,9 +419,18 @@ span hr{
       
     }
 
-    .nav_logo{
-      display: none;
+    .nav_logo img{
+      width: 40px;
+      height: 30px;
+      
 
+    }
+
+    
+    .nav_logo p{
+        font-size: 20px;
+        margin-left: -20px;
+        
     }
     
     .mobbelow{
@@ -605,6 +611,7 @@ span hr{
         
        
     }
+
     
     .mobbelow2{
         display: flex;
@@ -664,8 +671,42 @@ span hr{
         flex-direction: column;
     }
 
+    .mobilehader #myLinks{
+        display: none;
+    }
+
+    .mobnav_logo{
+        display: none;
+    }
+
+    .mobnav_icon{
+        display: none;
+    }
     .mobilehader{
-        display:none;
+        background-color:#E650A5;
+        float: right;
+        color: white;
+        
+    }
+    .mobilehader{
+        display: block;
+        margin: 0 20px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .mobnav_logo{
+        display: none;
+    }
+
+    .icon{
+        display: block;
+        
+        
+        
+       
     }
 
     .lastend{
@@ -679,9 +720,6 @@ span hr{
         
     }
 
-    .fourth-below{
-       
-    }
 
     .fourth-below button{
         padding: 20px;

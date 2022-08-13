@@ -24,7 +24,7 @@
        
         <link rel="stylesheet" href="help.css">
         
-        <title>QR Generator</title>
+        <title>Help</title>
     </head>
     <body>
     <!-- code start -->
@@ -64,7 +64,7 @@
                     <p>TEAM 52</p>
                 </div>
     
-                <ul class="mobnav_links">
+                <ul class="mobnav_links" id="myLinks">
                     <li>
                     <a href="../index.html">Home</a>
                     </li>
@@ -73,6 +73,9 @@
                     <li><a href="#">Help</a></li>
                     <li><a href="./contactus.html">Contact Us</a></li>
                 </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars fa-xl"></i>
+                  </a>
                 <div class="mobnav_icon">
                     <a href=""> <i class="fa fa-user icon"></i></a>
                 </div>
@@ -130,7 +133,7 @@
                 <i class="fa-solid fa-pen"></i>
                 <a href=""><h2>Create & Edit</h2></a>
                 <a href=""><p>Delete a code<p></p></a>
-                <a href=""><p>Edit or vlidate a code</p></a>
+                <a href=""><p>Edit or validate a code</p></a>
                 <a href=""><p>Generate a code</p></a>
             </div>
         </div>
@@ -254,8 +257,16 @@
     </div>
 
 
- 
-
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
     
     
 
